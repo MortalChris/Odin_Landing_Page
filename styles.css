@@ -1,1 +1,20 @@
-
+/* Header shape and color  */
+.flex-container {
+    display: felx;
+    flex-wrap: nowrap;
+    background-color: #1F2937;
+    padding: 20px 10px;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+/* Align header to the right  */
+.header-right {
+    width: 100px;
+    float: right;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0px 0px 10px 20px;
+   
+}
