@@ -1,14 +1,10 @@
-/* Header shape and color  */
-.row {
+/* Header shape and color  
     flex-wrap: nowrap;
     background-color: #1F2937;
     padding: 10px;
-}
-.logo {
-    color: #f9faf8;
-    font-size: 24px;
-}
-/* Align header to the right  */
+} */
+
+/* Align header to the right  
 .header-right {
     width: 100px;
     float: right;
@@ -26,4 +22,57 @@ img {
     width: 600px;
     height: 400px;
     margin-left: auto;
+    } 
+    .row {
+    flex-wrap: nowrap;
+    background-color: #1F2937;
+    padding: 10px;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+/* Start here */
+.logo {
+    border-radius: 4px;
+    padding: 0px;
+    width: 100px;
+    cursor: pointer;
+  }
+.logo img {
+    margin: auto 5px;
+    float: left;
+    align-items: left;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px 0px;
+    background-color: #1F2937;
+}
+li, a {
+    color: #bdbec2;
+    text-decoration: none;
+}
+body {
+    margin-left: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-top: 0px;
+}
+
+.nav__links, li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(255, 255, 255);
 }
