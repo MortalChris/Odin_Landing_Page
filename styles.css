@@ -33,6 +33,7 @@ img {
     font-size: 24px;
 }
 /* Start here */
+
 .logo {
     border-radius: 4px;
     padding: 0px;
@@ -58,11 +59,10 @@ li, a {
     color: #bdbec2;
     text-decoration: none;
 }
-body {
-    margin-left: 0px; 
-    margin-right: 0px; 
-    margin-bottom: 0px; 
-    margin-top: 0px;
+
+.nav__links{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav__links, li {
@@ -75,4 +75,22 @@ body {
 
 .nav__links li a:hover {
     color: rgb(255, 255, 255);
+}
+body {
+    margin-left: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-top: 0px;
+}
+.Ramen_Heading {
+    background-color: #1F2937;
+}
+.Ramen_img{
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+    float: right;
+}
+.container {
+    float: left;
 }
