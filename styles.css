@@ -1,9 +1,8 @@
-
+/*All section*/
 *{
     margin: 0;
     padding: 0;
 }
-
 /*Heading section*/
 .logo {
     border-color:#1F2937;
@@ -21,10 +20,8 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-   
     box-sizing: border-box;
     margin: 0;
-
     background-color: #1F2937;
 }
 li, a {
@@ -57,8 +54,6 @@ li, a {
 #section1 .box1{
     margin: 75px;
 }
-
-
 #section1 h1{
     color: white;
     padding: 5px;
@@ -69,10 +64,10 @@ li, a {
     font-size:18px;
 }
 box2, img {
-    margin: 20px;
+    margin: 40px;
     border: 2px solid #ddd;
     border-radius: 4px;
-    
+    /*Img styling above*/
 }
 .button{
     display: inline-block;
@@ -86,5 +81,22 @@ box2, img {
     background-color: #3882f6;
 }
 /*Info section*/
+.column img{
+    display: inline-block;
+    float:left;
+    padding: 0px;
+    width: 20%;
+    height: 20%;
+    border-style: solid;
+    border-radius: 15px;
+    border: 3px solid #3882f6;
+}
 
-
+/*
+    width: 50%;
+    height: 50%;
+    margin: 40px;
+    border-style: solid;
+    border-radius: 15px;
+    border: 6px solid #3882f6;
+    */
