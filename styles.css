@@ -57,7 +57,7 @@ li, a {
 #section1 h1{
     color: white;
     padding: 5px;
-    font: 48px;
+    font-size: 48px;
 }
 #section1 p{
     color:#E5E7EB;
@@ -80,18 +80,54 @@ box2, img {
     margin-top:20px;
     background-color: #3882f6;
 }
+
 /*Info section*/
+
+#section2 h1{
+    text-align: center;
+    padding-top: 30px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
 .column img{
     display: inline-block;
     float:left;
     padding: 0px;
     width: 20%;
     height: 20%;
-    border-style: solid;
     border-radius: 15px;
     border: 3px solid #3882f6;
+    box-sizing: border-box;
+}
+caption{
+    caption-side: bottom;
 }
 
+/*Section 3 start*/
+#section3 {
+    background: #E5E7EB;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+    font-size: 36px;
+    float:left;
+    font-size: 36px;
+    font-style:italic;
+   /* height: auto;
+    width: 80%;
+    border: 2px 2px 2px 2px;
+     box-sizing:border-box;
+    */
+}
+footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+
+}
 /*
     width: 50%;
     height: 50%;
